@@ -1,5 +1,10 @@
 #450. Delete Node in a BST - https://leetcode.com/problems/delete-node-in-a-bst/description/?envType=study-plan-v2&envId=leetcode-75
 
+#Facts about BST:
+#1. Inorder traversal leads to ascending order of elements in the BST.
+#2. Successor of the node (next largest in the inorder array) can be found by moving once to right and then left untill possible
+#3. Predecessor of the node (the largest val < node; i.e, the previous element in the inroder array) can be found by moving left once and right until possible.
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
